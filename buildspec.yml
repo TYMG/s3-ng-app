@@ -2,8 +2,8 @@ version: 0.2
 
 env:
   variables:
-    S3_BUCKET: s3-ng-app //Should be the name of S3 bucket created
-APP_NAME: "s3-ng-app" //The name of the Angular App created
+    S3_BUCKET: "s3-ng-app" #Should be the name of S3 bucket created
+APP_NAME: "s3-ng-app" #The name of the Angular App created
 BUILD_ENV: "prod"
 
 phases:
